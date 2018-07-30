@@ -1,8 +1,9 @@
 def turn_count (board)
   counter = 0
-if my_condition_is_met
-  counter = counter + 1
-end
+  board.each do |index|
+    if index==""|| index=" "
+     counter=+1
+   end
   
 end
 
